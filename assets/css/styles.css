@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top-bar section */
+.top-bar{
+    background-color: #FFA500;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-location{
+    color: #002060;
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.signup-social{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.signup-login{
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.signup-login a{
+    text-decoration: none;
+    color: #002060;
+}
+
+.signup-login a:hover{
+    color: #FFF;
+}
+
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #002060;
+}
+
+.social-media a:hover{
+    color: #FFF;
+}
